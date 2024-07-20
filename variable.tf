@@ -16,3 +16,9 @@ variable "policy" {
   default = "pol"
   
 }
+
+variable "kword" {
+  type = string
+  sensitive = true
+  
+}
